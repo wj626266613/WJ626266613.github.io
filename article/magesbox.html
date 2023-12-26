@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<link rel="stylesheet" href="/_assets/main.css" />
+
+    <title>【小制作分享】用粒子系统来实现一些粒子阵列效果（后面付源文件）-Magesbox - 主页</title>
+  </head>
+  <body>
+    <div class="main">
+      <nav class="navigation">
+        <a href="/">主页</a>
+      </nav>
+      <article>
+        <header>
+          <h1 class="article-title">【小制作分享】用粒子系统来实现一些粒子阵列效果（后面付源文件）-Magesbox</h1>
+          <div class="article-info">
+            <div>
+              <span
+                >Created At：<time datetime="1703477737762"
+                  >2023-12-25 12:15</time
+                ></span
+              >
+              <span
+                >Updated At：<time datetime="1703477776748"
+                  >2023-12-25 12:16</time
+                ></span
+              >
+            </div>
+            
+          </div>
+        </header>
+        <div class="article-content markdown-body"><h2 id="小制作分享用粒子系统来实现一些粒子阵列效果后面付源文件">【小制作分享】用粒子系统来实现一些粒子阵列效果（后面付源文件）</h2>
+<p>hello大家好哇，我是轻言。</p>
+<p>之前做作品，有小伙伴问这个魔方怎么出现的。</p>
+<p>哈哈，我懒，会找一些容易实现的方法来做。就是用粒子系统来实现的。</p>
+<p>这篇文章连教程都算不上，就是自己的一些制作过程分享，当作是抛砖引玉吧。</p>
+<p><img src="/_resources/66b675460682406b86844d38f31049c6.gif" title="Honeycam 2022-03-11 01-22-09.gif" /></p>
+<p>自赎大佬写了一篇网格发射器来做矩阵特效的原理，讲得非常详细了：</p>
+<p>向大佬致敬。我就大概提一下：</p>
+<p>网格作为发射器，并用loop或者ping-pong模式发射的时候，unity就会按照顶点编号的顺序来发射粒子。</p>
+<img width="970" height="570" src="/_resources/6d3e9b934fe2404987d0b5adca1146ba.png" class="jop-noMdConv" />
+<p>在这个案例里呢，就用了一个4*4的网格来发射方块粒子。</p>
+<p>调整好旋转，大小，溶解，基本的效果就出来了。每一个片就是一个面，拼上六个面就可以做出个魔方了</p>
+<p><img src="/_resources/9c18416b14654274bf01795d75e4f88c.gif" title="Honeycam 2022-03-11 01-42-02.gif" /></p>
+<p>要注意的是检查网格的顶点数，这个顶点数和发射出来的小方块粒子是要对应的。</p>
+<p><img src="/_resources/1d91a8ca49b443b8ac055fbc08f32a78.png" title="网格.png" /></p>
+<p>大的效果实现起来应该都没问题，一定要注意调好曲线</p>
+<img width="970" height="559" src="/_resources/f140726ebedc46baa610e2d617d32f46.png" class="jop-noMdConv" />  
+<p>说两个延伸的话题：</p>
+<p>第一：为何没有用一整个正方体作为网格发射器，因为整个正方体对我来说不太好控制</p>
+<p>下面就是以球体做例子的情况，调好的话，效果就挺不错的~</p>
+<img width="970" height="840" src="/_resources/45310a8bd63348559e3add346a940668.gif" class="jop-noMdConv" />
+<p>第二：一定要注意配合粒子系统的曲线，另外用它来做变速什么的都很好用。</p>
+<img width="970" height="698" src="/_resources/6cdb07bfb9db474e849b79f5b2bf305f.gif" class="jop-noMdConv" />
+<p>上面几个例子我都放在网盘里，可以下载下来看看。现在的粒子系统已经很强大了，大家可以继续看看有什么玩法。</p>
+<p>顺手做了个像是分形的效果，项目中不能这么玩，作品还是可以试试看的。</p>
+<p>也许有大佬会用分形的思路做个特效。</p>
+<img width="970" height="698" src="/_resources/e2059a4b430b4a0286f4f83acb32e0d9.gif" class="jop-noMdConv" />
+<p>链接：<a title="https://pan.baidu.com/s/1mc9TamnuLYVRqcv_Qto1JQ" href="https://pan.baidu.com/s/1mc9TamnuLYVRqcv_Qto1JQ">https://pan.baidu.com/s/1mc9TamnuLYVRqcv_Qto1JQ</a><br />
+提取码：3232</p>
+<p>我用的unity版本是2020的</p>
+<p>标签:</p>
+<p>Unity；喷粒子</p>
+<p><strong>500</strong></p>
+<p><strong>未收藏</strong></p>
+<p><a title="https://www.magesbox.com/" href="https://www.magesbox.com/">首页</a>&gt;<a title="https://www.magesbox.com/article" href="https://www.magesbox.com/article">社区</a>&gt;【小制作分享】用粒子系统来实现一些粒子阵列效果（后面付源文件）</p>
+<p><img width="64" height="64" src="/_resources/839993e756274638964781c12a26c703.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/12923" href="https://www.magesbox.com/member/12923">https://www.magesbox.com/member/12923</a>)</p>
+<p>轻言</p>
+<p>并没有在找工作哦 / 魔法师</p>
+<p><img width="38" height="32" src="/_resources/915695073810487e882685b276a530d3.png" class="jop-noMdConv" /><img width="38" height="32" src="/_resources/190168b4c5824a20b7902506b42516c4.png" class="jop-noMdConv" /><img width="38" height="32" src="/_resources/5a5e7eed7dfc42e0b5f654eb3d4efe21.png" class="jop-noMdConv" /></p>
+<p>关注</p>
+<p>确定</p>
+<p>评论（72）</p>
+<p><a title="https://www.magesbox.com/member/16333" href="https://www.magesbox.com/member/16333"><img src="/_resources/0373008ed8df4e73a7ead848ab551bb9.jpg" /></a></p>
+<p>郁闷人</p>
+<p>请教下max中顶点的顺序可以自己修改么</p>
+<p>回复</p>
+<p>216天前</p>
+<p><img width="30" height="30" src="/_resources/839993e756274638964781c12a26c703.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/12923" href="https://www.magesbox.com/member/12923">https://www.magesbox.com/member/12923</a>)</p>
+<p>轻言</p>
+<p>回复</p>
+<p>郁闷人</p>
+<p>不行噢，只能查看</p>
+<p>回复</p>
+<p>216天前</p>
+<p><a title="https://www.magesbox.com/member/16333" href="https://www.magesbox.com/member/16333"><img src="/_resources/0373008ed8df4e73a7ead848ab551bb9.jpg" /></a></p>
+<p>郁闷人</p>
+<p>回复</p>
+<p>轻言</p>
+<p>不用max顶点的顺序有办法修改么？</p>
+<p>回复</p>
+<p>213天前</p>
+<p><img width="30" height="30" src="/_resources/fcea547c8d4a4ffda7cc2cc2a2d788ec.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/36472" href="https://www.magesbox.com/member/36472">https://www.magesbox.com/member/36472</a>)</p>
+<p>红茶瘾者</p>
+<p>感谢分享！！！昨晚还跟同事讨论来着hhhhh，今天就看到了</p>
+<p>回复</p>
+<p>366天前</p>
+<p><img width="30" height="30" src="/_resources/aa1383fd7b23470a985466bd6441bdfc.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/25575" href="https://www.magesbox.com/member/25575">https://www.magesbox.com/member/25575</a>)</p>
+<p>轮回</p>
+<p>好厉害 额滴神啊</p>
+<p>回复</p>
+<p>509天前</p>
+<p><img width="30" height="30" src="/_resources/4404e8b24fc749d3a73b1f38c49240b3.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/24699" href="https://www.magesbox.com/member/24699">https://www.magesbox.com/member/24699</a>)</p>
+<p>clearlove7</p>
+<p>其实你这写效果我都复刻过，只不过我是暴力复刻。我用C4D的运动图形还有houdini的运动图形模块，做完了烘焙导出即可。。没那个耐心学习粒子系统的高级应用。。。。直接暴力C4D解决</p>
+<p>回复</p>
+<p>555天前</p>
+<p><img width="30" height="30" src="/_resources/839993e756274638964781c12a26c703.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/12923" href="https://www.magesbox.com/member/12923">https://www.magesbox.com/member/12923</a>)</p>
+<p>轻言</p>
+<p>回复</p>
+<p>clearlove7</p>
+<p>都行哦，作品怎么顺手怎么来就好。能实现的方式也挺多的</p>
+<p>回复</p>
+<p>555天前</p>
+<p><a title="https://www.magesbox.com/member/14293" href="https://www.magesbox.com/member/14293"><img src="/_resources/518efc21e0284e4d8d07c9700e068ac4.jpg" /></a></p>
+<p>阿拉灯神丁</p>
+<p>666</p>
+<p>回复</p>
+<p>570天前</p>
+<p><img width="30" height="30" src="/_resources/48f217ff1f064198b7e89659eb58698c.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/33511" href="https://www.magesbox.com/member/33511">https://www.magesbox.com/member/33511</a>)</p>
+<p>老恭</p>
+<p>像问一下大佬旋转角度跟生命要怎么匹配才能调平啊，自己调了半天一直调不平，或者说有什么关联</p>
+<p>回复</p>
+<p>570天前</p>
+<p><img width="30" height="30" src="/_resources/839993e756274638964781c12a26c703.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/12923" href="https://www.magesbox.com/member/12923">https://www.magesbox.com/member/12923</a>)</p>
+<p>轻言</p>
+<p>回复</p>
+<p>老恭</p>
+<p>没啥具体的值可以参考，就是要多些耐心。你可以下载文件看看，最后写了分享地址了</p>
+<p>回复</p>
+<p>570天前</p>
+<p><img width="30" height="30" src="/_resources/0a4b715a58a04f36bb024d87c7bdf89e.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/36288" href="https://www.magesbox.com/member/36288">https://www.magesbox.com/member/36288</a>)</p>
+<p>反方向的效</p>
+<p>回复</p>
+<p>老恭</p>
+<p>生命时间*角度等于360的倍数就可以了。</p>
+<p>回复</p>
+<p>177天前</p>
+<p><img width="30" height="30" src="/_resources/f102ffc1850c42fc8f6e2776d170dbab.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/33423" href="https://www.magesbox.com/member/33423">https://www.magesbox.com/member/33423</a>)</p>
+<p>你给路啦哟</p>
+<p>OHHH大佬爱你</p>
+<p>回复</p>
+<p>572天前</p>
+<p><img width="30" height="30" src="/_resources/28647692002a456fb7c4e222b32c2e09.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/19832" href="https://www.magesbox.com/member/19832">https://www.magesbox.com/member/19832</a>)</p>
+<p>木琦</p>
+<p>感谢分享~</p>
+<p>回复</p>
+<p>576天前</p>
+<p><img width="30" height="30" src="/_resources/efb7e86f3f7842a28a35a8cfc1d5d54f.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/12068" href="https://www.magesbox.com/member/12068">https://www.magesbox.com/member/12068</a>)</p>
+<p>夏目</p>
+<p>大佬能加个好友吗，有个小问题，我的发射器面片和你的发射器面片一样，但是出现的顺序有点不太一样，我Q1766696,谢谢大佬</p>
+<p>回复</p>
+<p>598天前</p>
+<p><img width="30" height="30" src="/_resources/e2f629d5d2424e83866ec503eee1d12b.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/13075" href="https://www.magesbox.com/member/13075">https://www.magesbox.com/member/13075</a>)</p>
+<p>Magneto万磁王</p>
+<p>大佬能加个好友吗</p>
+<p>回复</p>
+<p>624天前</p>
+<p><img width="30" height="30" src="/_resources/5195a4b04f604de4a1ac8d4c03ffb393.png" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/16730" href="https://www.magesbox.com/member/16730">https://www.magesbox.com/member/16730</a>)</p>
+<p>plml</p>
+<p>大佬 能加个好友吗</p>
+<p>回复</p>
+<p>626天前</p>
+<p><img width="30" height="30" src="/_resources/12eda674cb6d41a78bb6e8c11a1a570a.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/14516" href="https://www.magesbox.com/member/14516">https://www.magesbox.com/member/14516</a>)</p>
+<p>zhuxisky</p>
+<p>大佬 你忘了注明 u3d哪个版本的做的</p>
+<p>回复</p>
+<p>636天前</p>
+<p><img width="30" height="30" src="/_resources/839993e756274638964781c12a26c703.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/12923" href="https://www.magesbox.com/member/12923">https://www.magesbox.com/member/12923</a>)</p>
+<p>轻言</p>
+<p>回复</p>
+<p>zhuxisky</p>
+<p>是2020的，多谢提醒</p>
+<p>回复</p>
+<p>636天前</p>
+<p><img width="30" height="30" src="/_resources/7036a80ec2c14455992c0f36153c6365.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/10353" href="https://www.magesbox.com/member/10353">https://www.magesbox.com/member/10353</a>)</p>
+<p>炽炎流霜</p>
+<p>回复</p>
+<p>轻言</p>
+<p>这是2020才有的功能？</p>
+<p>回复</p>
+<p>623天前</p>
+<p><img width="30" height="30" src="/_resources/41d2d402aa4b4a69b7612214e6ed17b2.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/29440" href="https://www.magesbox.com/member/29440">https://www.magesbox.com/member/29440</a>)</p>
+<p>萝卜</p>
+<p>学到了，感谢分享</p>
+<p>回复</p>
+<p>636天前</p>
+<p><img width="30" height="30" src="/_resources/5195a4b04f604de4a1ac8d4c03ffb393.png" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/34333" href="https://www.magesbox.com/member/34333">https://www.magesbox.com/member/34333</a>)</p>
+<p>rice</p>
+<p>感谢分享</p>
+<p>回复</p>
+<p>636天前</p>
+<p><img width="30" height="30" src="/_resources/fa3e672543554df0adb0c0cf67c10ba6.png" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/10487" href="https://www.magesbox.com/member/10487">https://www.magesbox.com/member/10487</a>)</p>
+<p>李咕嘟</p>
+<p>感谢分享</p>
+<p>回复</p>
+<p>636天前</p>
+<p><img width="30" height="30" src="/_resources/5195a4b04f604de4a1ac8d4c03ffb393.png" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/25140" href="https://www.magesbox.com/member/25140">https://www.magesbox.com/member/25140</a>)</p>
+<p>汪汪队立大功</p>
+<p>感谢分享</p>
+<p>回复</p>
+<p>638天前</p>
+<p><img width="30" height="30" src="/_resources/77fd6786a3c944d4be014758174bd0e7.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/13818" href="https://www.magesbox.com/member/13818">https://www.magesbox.com/member/13818</a>)</p>
+<p>阿金</p>
+<p>已转行去送水了，大佬订桶水！</p>
+<p>回复</p>
+<p>639天前</p>
+<p><img width="30" height="30" src="/_resources/a35c5d1edea04e43bb425fcf55e01320.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/10199" href="https://www.magesbox.com/member/10199">https://www.magesbox.com/member/10199</a>)</p>
+<p>西八那西</p>
+<p>奈思~</p>
+<p>回复</p>
+<p>639天前</p>
+<p><img width="30" height="30" src="/_resources/baf55056680747ba87e41dac65c11859.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/26122" href="https://www.magesbox.com/member/26122">https://www.magesbox.com/member/26122</a>)</p>
+<p>Kapok</p>
+<p>太牛啦</p>
+<p>回复</p>
+<p>639天前</p>
+<p><img width="30" height="30" src="/_resources/f22201e3f56445198e288b757d526df6.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/10993" href="https://www.magesbox.com/member/10993">https://www.magesbox.com/member/10993</a>)</p>
+<p>sschy</p>
+<p>666666</p>
+<p>回复</p>
+<p>641天前</p>
+<p><img width="30" height="30" src="/_resources/5195a4b04f604de4a1ac8d4c03ffb393.png" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/13431" href="https://www.magesbox.com/member/13431">https://www.magesbox.com/member/13431</a>)</p>
+<p>celiajing</p>
+<p>感谢大佬分享！！</p>
+<p>回复</p>
+<p>641天前</p>
+<p><img width="30" height="30" src="/_resources/6ed014a7ce684c12ae142600070f024b.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/10449" href="https://www.magesbox.com/member/10449">https://www.magesbox.com/member/10449</a>)</p>
+<p>Drack</p>
+<p>大佬牛逼 ，，又学到了 。</p>
+<p>回复</p>
+<p>642天前</p>
+<p><img width="30" height="30" src="/_resources/71ea7363b8f24ef88ff3fffea16d2a67.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/23953" href="https://www.magesbox.com/member/23953">https://www.magesbox.com/member/23953</a>)</p>
+<p>失业危机中年美工</p>
+<p>感谢文章分享，扩展许多思路</p>
+<p>回复</p>
+<p>644天前</p>
+<p><img width="30" height="30" src="/_resources/558fb8e6e33e4a9c9d919e36cd96fd94.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/24031" href="https://www.magesbox.com/member/24031">https://www.magesbox.com/member/24031</a>)</p>
+<p>蛋叫兽</p>
+<p>厉害了，还好看到了</p>
+<p>回复</p>
+<p>645天前</p>
+<p><img width="30" height="30" src="/_resources/faa8c34682ca4b8ca2fde55ce9429f51.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/12731" href="https://www.magesbox.com/member/12731">https://www.magesbox.com/member/12731</a>)</p>
+<p>星期七</p>
+<p>干货</p>
+<p>回复</p>
+<p>646天前</p>
+<p><img width="30" height="30" src="/_resources/8723524c01be4f91b51e8bbcb42ce32e.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/11227" href="https://www.magesbox.com/member/11227">https://www.magesbox.com/member/11227</a>)</p>
+<p>八个冬菇</p>
+<p>这也太牛逼了吧！！！！！！！！！！！！！</p>
+<p>回复</p>
+<p>647天前</p>
+<p><img width="30" height="30" src="/_resources/66357d8b76ac41f08982b85189e175b4.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/12248" href="https://www.magesbox.com/member/12248">https://www.magesbox.com/member/12248</a>)</p>
+<p>凶猛大笨象</p>
+<p>谢谢大佬分享！！</p>
+<p>回复</p>
+<p>647天前</p>
+<p><img width="30" height="30" src="/_resources/b2a05dd3de814961a0a484ffad9ae595.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/14773" href="https://www.magesbox.com/member/14773">https://www.magesbox.com/member/14773</a>)</p>
+<p>猹猹力</p>
+<p>牛66666</p>
+<p>回复</p>
+<p>648天前</p>
+<p><img width="30" height="30" src="/_resources/1ef8a1ab7db94bbaa34b004bea060cf9.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/13484" href="https://www.magesbox.com/member/13484">https://www.magesbox.com/member/13484</a>)</p>
+<p>小小千</p>
+<p>i了i了</p>
+<p>回复</p>
+<p>648天前</p>
+<p><img width="30" height="30" src="/_resources/1ef8a1ab7db94bbaa34b004bea060cf9.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/13484" href="https://www.magesbox.com/member/13484">https://www.magesbox.com/member/13484</a>)</p>
+<p>小小千</p>
+<p>学到了</p>
+<p>回复</p>
+<p>648天前</p>
+<p><img width="30" height="30" src="/_resources/5195a4b04f604de4a1ac8d4c03ffb393.png" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/17421" href="https://www.magesbox.com/member/17421">https://www.magesbox.com/member/17421</a>)</p>
+<p>找个听众</p>
+<p>多谢分享</p>
+<p>回复</p>
+<p>648天前</p>
+<p><img width="30" height="30" src="/_resources/f1f97aa74cb54a779e1f0adff264e4f7.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/11647" href="https://www.magesbox.com/member/11647">https://www.magesbox.com/member/11647</a>)</p>
+<p>Nevl_N</p>
+<p>好卷啊 幸亏我学到了！</p>
+<p>回复</p>
+<p>648天前</p>
+<p><img width="30" height="30" src="/_resources/6051262035f942fe973c4c8e9624e1ef.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/13430" href="https://www.magesbox.com/member/13430">https://www.magesbox.com/member/13430</a>)</p>
+<p>恍恍</p>
+<p>学到了学到了</p>
+<p>回复</p>
+<p>649天前</p>
+<p><img width="30" height="30" src="/_resources/55676d4ef6ba443ea572b1ae8ab3f883.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/10425" href="https://www.magesbox.com/member/10425">https://www.magesbox.com/member/10425</a>)</p>
+<p>爱的战士</p>
+<p>牛逼啊~~</p>
+<p>回复</p>
+<p>649天前</p>
+<p><img width="30" height="30" src="/_resources/a1655d128cbc4a5e9206f486bf9e3582.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/10492" href="https://www.magesbox.com/member/10492">https://www.magesbox.com/member/10492</a>)</p>
+<p>Mrtree</p>
+<p>厉害厉害！学习了</p>
+<p>回复</p>
+<p>650天前</p>
+<p><a title="https://www.magesbox.com/member/12696" href="https://www.magesbox.com/member/12696"><img src="/_resources/45df59c022e54a7c8b1b11b5cab4589b.png" /></a></p>
+<p>lt</p>
+<p>多谢大佬</p>
+<p>回复</p>
+<p>650天前</p>
+<p><img width="30" height="30" src="/_resources/b5ed0ad58eae4df39679099b2e18d7d8.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/19590" href="https://www.magesbox.com/member/19590">https://www.magesbox.com/member/19590</a>)</p>
+<p>二十四分之七</p>
+<p>学无止境是真的TQL</p>
+<p>回复</p>
+<p>650天前</p>
+<p><a title="https://www.magesbox.com/member/16584" href="https://www.magesbox.com/member/16584"><img src="/_resources/6200414498cc41cd8652b0672ecabd12.jpg" /></a></p>
+<p>虹野</p>
+<p>还能说啥呢？收下我的膝盖吧！！！</p>
+<p>回复</p>
+<p>652天前</p>
+<p><img width="30" height="30" src="/_resources/935f95a86ea643198ebb245c35a089d9.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/21091" href="https://www.magesbox.com/member/21091">https://www.magesbox.com/member/21091</a>)</p>
+<p>湛之</p>
+<p>帅！！！！！！</p>
+<p>回复</p>
+<p>652天前</p>
+<p><img width="30" height="30" src="/_resources/8b0fd15bdab842b783265d1ee6099afe.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/11783" href="https://www.magesbox.com/member/11783">https://www.magesbox.com/member/11783</a>)</p>
+<p>DDDDDD</p>
+<p>牛逼</p>
+<p>回复</p>
+<p>653天前</p>
+<p><img width="30" height="30" src="/_resources/839993e756274638964781c12a26c703.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/12923" href="https://www.magesbox.com/member/12923">https://www.magesbox.com/member/12923</a>)</p>
+<p>轻言</p>
+<p>回复</p>
+<p>DDDDDD</p>
+<p>多谢奆奆的肯定</p>
+<p>回复</p>
+<p>653天前</p>
+<p><img width="30" height="30" src="/_resources/5195a4b04f604de4a1ac8d4c03ffb393.png" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/17897" href="https://www.magesbox.com/member/17897">https://www.magesbox.com/member/17897</a>)</p>
+<p>啊慕</p>
+<p>感谢大佬分享！！！！</p>
+<p>回复</p>
+<p>653天前</p>
+<p><img width="30" height="30" src="/_resources/f2d7213228664493bcc2ee724460433e.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/13012" href="https://www.magesbox.com/member/13012">https://www.magesbox.com/member/13012</a>)</p>
+<p>Akali</p>
+<p>牛批！学到了！！</p>
+<p>回复</p>
+<p>653天前</p>
+<p><img width="30" height="30" src="/_resources/2a00ce2afb6d4881b909d38618c35f4c.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/18421" href="https://www.magesbox.com/member/18421">https://www.magesbox.com/member/18421</a>)</p>
+<p>大魔王</p>
+<p>直接一波关注</p>
+<p>回复</p>
+<p>653天前</p>
+<p><img width="30" height="30" src="/_resources/839993e756274638964781c12a26c703.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/12923" href="https://www.magesbox.com/member/12923">https://www.magesbox.com/member/12923</a>)</p>
+<p>轻言</p>
+<p>回复</p>
+<p>大魔王</p>
+<p>多谢支持</p>
+<p>回复</p>
+<p>653天前</p>
+<p><img width="30" height="30" src="/_resources/1e26e3832dca4dc3b01c4d662b53d27a.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/23885" href="https://www.magesbox.com/member/23885">https://www.magesbox.com/member/23885</a>)</p>
+<p>吾川内富</p>
+<p>感谢大佬分享！！！！</p>
+<p>回复</p>
+<p>653天前</p>
+<p><img width="30" height="30" src="/_resources/839993e756274638964781c12a26c703.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/12923" href="https://www.magesbox.com/member/12923">https://www.magesbox.com/member/12923</a>)</p>
+<p>轻言</p>
+<p>回复</p>
+<p>吾川内富</p>
+<p>多谢大佬支持</p>
+<p>回复</p>
+<p>653天前</p>
+<p><img width="30" height="30" src="/_resources/fa2da36ecedb4c54b7a8e45bc617465b.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/29678" href="https://www.magesbox.com/member/29678">https://www.magesbox.com/member/29678</a>)</p>
+<p>G工仔</p>
+<p>回复</p>
+<p>吾川内富</p>
+<p>杰哥，这么巧</p>
+<p>回复</p>
+<p>579天前</p>
+<p><img width="30" height="30" src="/_resources/11254ca5086448c4b538e13c913350a3.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/26731" href="https://www.magesbox.com/member/26731">https://www.magesbox.com/member/26731</a>)</p>
+<p>lolmingmmmm</p>
+<p>牛批牛批，感谢分享~</p>
+<p>回复</p>
+<p>653天前</p>
+<p><img width="30" height="30" src="/_resources/839993e756274638964781c12a26c703.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/12923" href="https://www.magesbox.com/member/12923">https://www.magesbox.com/member/12923</a>)</p>
+<p>轻言</p>
+<p>回复</p>
+<p>lolmingmmmm</p>
+<p>多谢明佬支持~</p>
+<p>回复</p>
+<p>653天前</p>
+<p><img width="30" height="30" src="/_resources/3718412d755b4f519d3c6678f78fa78a.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/18891" href="https://www.magesbox.com/member/18891">https://www.magesbox.com/member/18891</a>)</p>
+<p>墨泪</p>
+<p>大佬说的教程是这个https://mp.weixin.qq.com/s/h3wYo2hFtuPJRlCGtWlvRA</p>
+<p>回复</p>
+<p>653天前</p>
+<p><img width="30" height="30" src="/_resources/839993e756274638964781c12a26c703.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/12923" href="https://www.magesbox.com/member/12923">https://www.magesbox.com/member/12923</a>)</p>
+<p>轻言</p>
+<p>回复</p>
+<p>墨泪</p>
+<p>哦哦好的，多谢，就是它，我把它贴上去</p>
+<p>回复</p>
+<p>653天前</p>
+<p><img width="30" height="30" src="/_resources/620c4a0107a345cfb9d69f0f0657c285.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/16052" href="https://www.magesbox.com/member/16052">https://www.magesbox.com/member/16052</a>)</p>
+<p>qlqhx</p>
+<p>感谢大佬分享</p>
+<p>回复</p>
+<p>653天前</p>
+<p><img width="30" height="30" src="/_resources/c96ea5f793964b7ab4a1e38b44928cdd.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/10014" href="https://www.magesbox.com/member/10014">https://www.magesbox.com/member/10014</a>)</p>
+<p>自赎</p>
+<p>牛批</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/839993e756274638964781c12a26c703.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/12923" href="https://www.magesbox.com/member/12923">https://www.magesbox.com/member/12923</a>)</p>
+<p>轻言</p>
+<p>回复</p>
+<p>自赎</p>
+<p>活捉自赎大佬！~！看到的就是你的文章</p>
+<p>回复</p>
+<p>653天前</p>
+<p><img width="30" height="30" src="/_resources/839993e756274638964781c12a26c703.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/12923" href="https://www.magesbox.com/member/12923">https://www.magesbox.com/member/12923</a>)</p>
+<p>轻言</p>
+<p>回复</p>
+<p>自赎</p>
+<p>大佬我把你原文链接贴上去了，十分感谢；如果觉得有困扰我再删就是。</p>
+<p>回复</p>
+<p>653天前</p>
+<p><img width="30" height="30" src="/_resources/c96ea5f793964b7ab4a1e38b44928cdd.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/10014" href="https://www.magesbox.com/member/10014">https://www.magesbox.com/member/10014</a>)</p>
+<p>自赎</p>
+<p>回复</p>
+<p>轻言</p>
+<p>没问题啊，大佬做的很棒，学到很多.jgp</p>
+<p>回复</p>
+<p>651天前</p>
+<p><img width="30" height="30" src="/_resources/c38914cb78214beea996673b8f5dfd75.png" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/21795" href="https://www.magesbox.com/member/21795">https://www.magesbox.com/member/21795</a>)</p>
+<p>80</p>
+<p>回复</p>
+<p>自赎</p>
+<p>顶点编号可以通过重展UV来控制排序</p>
+<p>回复</p>
+<p>583天前</p>
+<p><img width="30" height="30" src="/_resources/4e6965bab0e74081af3b40858566408c.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/24689" href="https://www.magesbox.com/member/24689">https://www.magesbox.com/member/24689</a>)</p>
+<p>伊伊呀</p>
+<p>感谢分享 爱了爱了</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/525f3bb756bd4b2b9d97b2638f5a5bc6.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/18978" href="https://www.magesbox.com/member/18978">https://www.magesbox.com/member/18978</a>)</p>
+<p>隠川</p>
+<p>牛批！学到了！！</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/4c0c8a9efc7b47ea842d4d608efd79fb.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/26117" href="https://www.magesbox.com/member/26117">https://www.magesbox.com/member/26117</a>)</p>
+<p>一朝命断美人画</p>
+<p>感谢大佬分享</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/721cbf5bb0824fd7a64fd6c0d9ef63ab.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/31761" href="https://www.magesbox.com/member/31761">https://www.magesbox.com/member/31761</a>)</p>
+<p>戴戴我鸭</p>
+<p>来了</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/e50f2228b0534f8eac534cb1f436825e.png" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/10572" href="https://www.magesbox.com/member/10572">https://www.magesbox.com/member/10572</a>)</p>
+<p>依晓凡</p>
+<p>学到了 爱了爱了</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/5195a4b04f604de4a1ac8d4c03ffb393.png" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/33000" href="https://www.magesbox.com/member/33000">https://www.magesbox.com/member/33000</a>)</p>
+<p>慢悠悠路过</p>
+<p>真棒啊</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/610cce69f1ef43bd870422e837094807.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/10680" href="https://www.magesbox.com/member/10680">https://www.magesbox.com/member/10680</a>)</p>
+<p>星衍</p>
+<p>好人一胎十个！</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/839993e756274638964781c12a26c703.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/12923" href="https://www.magesbox.com/member/12923">https://www.magesbox.com/member/12923</a>)</p>
+<p>轻言</p>
+<p>回复</p>
+<p>星衍</p>
+<p>哈哈哈，什么鬼，是要养猪吗哈哈哈</p>
+<p>回复</p>
+<p>653天前</p>
+<p><img width="30" height="30" src="/_resources/7660e484ffda48858b9ce01830e1ec49.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/14416" href="https://www.magesbox.com/member/14416">https://www.magesbox.com/member/14416</a>)</p>
+<p>小木</p>
+<p>感谢大佬分享</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/bdb167c9af3f417d97a611cd46f7e634.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/15093" href="https://www.magesbox.com/member/15093">https://www.magesbox.com/member/15093</a>)</p>
+<p>小葱白Cong</p>
+<p>快删了，这要是被别人看到了，又要加入案例，开课挣钱</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/dd31199650cc4ec6b39158a4e13a20b2.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/26840" href="https://www.magesbox.com/member/26840">https://www.magesbox.com/member/26840</a>)</p>
+<p>路垣</p>
+<p>感谢大佬分享</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/67355471c8e2455aa1bd5c0b42102427.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/13488" href="https://www.magesbox.com/member/13488">https://www.magesbox.com/member/13488</a>)</p>
+<p>陈广仁</p>
+<p>感谢大佬分享</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/95706e864ea14120bf47fc803f0692fa.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/11799" href="https://www.magesbox.com/member/11799">https://www.magesbox.com/member/11799</a>)</p>
+<p>坏熊猫</p>
+<p>感谢分享 爱了爱了</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/839993e756274638964781c12a26c703.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/12923" href="https://www.magesbox.com/member/12923">https://www.magesbox.com/member/12923</a>)</p>
+<p>轻言</p>
+<p>回复</p>
+<p>坏熊猫</p>
+<p>多谢大佬支持</p>
+<p>回复</p>
+<p>654天前</p>
+<p><a title="https://www.magesbox.com/member/15809" href="https://www.magesbox.com/member/15809"><img src="/_resources/cb4c5b193699441f9743932f1714da76.png" /></a></p>
+<p>菜鸭</p>
+<p>感谢大佬的分享</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/7b32bd78bf6f41bebb53fa4693df63be.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/14887" href="https://www.magesbox.com/member/14887">https://www.magesbox.com/member/14887</a>)</p>
+<p>虚幻吴彦祖</p>
+<p>大佬 UE4有这个功能吗…</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/839993e756274638964781c12a26c703.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/12923" href="https://www.magesbox.com/member/12923">https://www.magesbox.com/member/12923</a>)</p>
+<p>轻言</p>
+<p>回复</p>
+<p>虚幻吴彦祖</p>
+<p>我还没玩过UE4，你可以探索一下~</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/7b32bd78bf6f41bebb53fa4693df63be.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/14887" href="https://www.magesbox.com/member/14887">https://www.magesbox.com/member/14887</a>)</p>
+<p>虚幻吴彦祖</p>
+<p>回复</p>
+<p>轻言</p>
+<p>那大佬说的那个网格发射器来做矩阵特效的教程在哪啊 我去瞅瞅去</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/839993e756274638964781c12a26c703.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/12923" href="https://www.magesbox.com/member/12923">https://www.magesbox.com/member/12923</a>)</p>
+<p>轻言</p>
+<p>回复</p>
+<p>虚幻吴彦祖</p>
+<p>公众号叫 特效练习室</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/7b32bd78bf6f41bebb53fa4693df63be.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/14887" href="https://www.magesbox.com/member/14887">https://www.magesbox.com/member/14887</a>)</p>
+<p>虚幻吴彦祖</p>
+<p>回复</p>
+<p>轻言</p>
+<p>感谢！！</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/ce32ec60db2c4ccdb2cace6263976306.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/13336" href="https://www.magesbox.com/member/13336">https://www.magesbox.com/member/13336</a>)</p>
+<p>BOBBYCHUNG</p>
+<p>我直接关注点赞收藏</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/839993e756274638964781c12a26c703.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/12923" href="https://www.magesbox.com/member/12923">https://www.magesbox.com/member/12923</a>)</p>
+<p>轻言</p>
+<p>回复</p>
+<p>BOBBYCHUNG</p>
+<p>多谢支持哈哈</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/32c2b9db1eaf4f99abfa022421ce1b62.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/19902" href="https://www.magesbox.com/member/19902">https://www.magesbox.com/member/19902</a>)</p>
+<p>萝貝</p>
+<p>学到了学到了</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/7040db894d51441da1af6c00e6c38680.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/26567" href="https://www.magesbox.com/member/26567">https://www.magesbox.com/member/26567</a>)</p>
+<p>munuo</p>
+<p>感谢大佬分享！</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/3fd1372614054904a12930971f51c75c.png" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/30453" href="https://www.magesbox.com/member/30453">https://www.magesbox.com/member/30453</a>)</p>
+<p>fcp</p>
+<p>好人一生平安</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/349a2765730349c994ac961c351a4e9d.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/10073" href="https://www.magesbox.com/member/10073">https://www.magesbox.com/member/10073</a>)</p>
+<p>oah</p>
+<p>谢谢你无私的分享，好人一生平安</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/06aca1390392443fba6fd041c8e8bccf.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/19703" href="https://www.magesbox.com/member/19703">https://www.magesbox.com/member/19703</a>)</p>
+<p>Albert</p>
+<p>给大佬递茶！！！大佬牛皮！！！YYDS!</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/839993e756274638964781c12a26c703.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/12923" href="https://www.magesbox.com/member/12923">https://www.magesbox.com/member/12923</a>)</p>
+<p>轻言</p>
+<p>回复</p>
+<p>Albert</p>
+<p>3Q，多谢支持</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/0ec4bc4f55004e4eb17b3f7e30b4194c.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/22409" href="https://www.magesbox.com/member/22409">https://www.magesbox.com/member/22409</a>)</p>
+<p>凉笙不是凉生</p>
+<p>我靠 太屌了</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/839993e756274638964781c12a26c703.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/12923" href="https://www.magesbox.com/member/12923">https://www.magesbox.com/member/12923</a>)</p>
+<p>轻言</p>
+<p>回复</p>
+<p>凉笙不是凉生</p>
+<p>就是个小效果~快试试</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/eb894ad64c3247e581bdcac28f1a8e53.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/15858" href="https://www.magesbox.com/member/15858">https://www.magesbox.com/member/15858</a>)</p>
+<p>温温</p>
+<p>我靠 太屌了</p>
+<p>回复</p>
+<p>654天前</p>
+<p><img width="30" height="30" src="/_resources/839993e756274638964781c12a26c703.jpg" class="jop-noMdConv" />](<a title="https://www.magesbox.com/member/12923" href="https://www.magesbox.com/member/12923">https://www.magesbox.com/member/12923</a>)</p>
+<p>轻言</p>
+<p>回复</p>
+<p>温温</p>
+<p>多谢支持~</p>
+<p>回复</p>
+<p>654天前</p>
+<p>没有更多啦~</p>
+<ul>
+<li><a title="http://wpa.qq.com/msgrd?v=3&amp;uin=3278725657&amp;site=qq&amp;menu=yes" href="http://wpa.qq.com/msgrd?v=3&amp;uin=3278725657&amp;site=qq&amp;menu=yes">咨询  <br class="jop-noMdConv" />客服</a></li>
+</ul>
+</div>
+      </article>
+    </div>
+  </body>
+</html>
